@@ -67,6 +67,24 @@
     }
   }
 
+  &__social {
+    display: flex;
+    align-self: baseline;
+    margin: 0;
+    padding: 0;
+
+    > a {
+      > img {
+        height: 22px;
+        opacity: .5;
+      }
+
+      &:not(:last-of-type) {
+        margin-right: 4px;
+      }
+    }
+  }
+
   .spacer {
     flex-grow: 1 !important;
   }
